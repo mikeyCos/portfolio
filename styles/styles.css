@@ -1,3 +1,27 @@
-h1 {
-    color: lightpink;
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    min-height: 100%;
+}
+
+body {
+    margin: 0;
+    background-color: lightgray;
+}
+
+.nav-bar {
+    background-color: lightgreen;
+    /* padding-bottom: 4em; */
+}
+
+.about, .skills, .projects {
+    background-color: lightcoral;
+    width: 100%;
+    padding-bottom: 30em;
+}
+
+.container {
+    border: 0.5em solid black;
 }
