@@ -10,39 +10,103 @@
     </head>
 
     <body>
-        <h1>Hello World</h1>
 <!-- locked position nav-bar -->
-        <!-- "Go to top" -->
+        <!-- Home -->
         <!-- About me -->
         <!-- Skills -->
         <!-- Projects -->
-        <!-- Contact button -->
+        <!-- Contact-->
         <!-- Github icon -->
-        <div class="nav-bar">
-            <div class="container">
-                <ul>
-                    <li>Top</li>
-                    <li>About</li>
-                    <li>Skills</li>
-                    <li>Projects</li>
-                    <li>Contact</li>
-                    <li>Github Icon</li>
-                </ul>
-            </div>
+        <div id="navbar">
+            <a class="menu" href="#"><img src="./assets/icons/menu.svg" alt=""></a>
+                <div class="container">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                    <a href="#"><img src="./assets/github-mark/github-mark.svg" alt="#"></a>
+                </div>
+        </div>
+
+<!-- home -->
+        <div id="home">
+            <h1>Home</h1>
         </div>
 <!-- about me with portrait and paragraph-->
-        <div class="about">
-            <div class="container"></div>
+        <div id="about">
+            <div class="container">
+                <h2>About</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Hac habitasse platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper. Sollicitudin tempor id eu nisl nunc mi ipsum. Egestas erat imperdiet sed euismod nisi porta lorem. A erat nam at lectus. Nibh tellus molestie nunc non blandit massa. Viverra mauris in aliquam sem fringilla ut morbi tincidunt augue. Tempor nec feugiat nisl pretium fusce. Tortor aliquam nulla facilisi cras fermentum odio. Egestas egestas fringilla phasellus faucibus. Nunc congue nisi vitae suscipit tellus mauris a diam maecenas.</p>
+                <img src="#" alt="#">
+            </div>
         </div>
-<!-- skills -->
+<!-- tools -->
         <!-- HTML, CSS, JavaScript -->
-        <div class="skills">
-            <div class="container"></div>
+        <div id="tools">
+            <div class="container">
+                <h2>Tools</h2>
+                <div class="tools-item">
+                    <img src="#" alt="">
+                    <p>HTML</p>
+                </div>
+                <div class="tools-item">
+                    <img src="#" alt="">
+                    <p>CSS</p>
+                </div>
+                <div class="tools-item">
+                    <img src="#" alt="">
+                    <p>JavaScript</p>
+                </div>
+                <div class="tools-item">
+                    <img src="#" alt="">
+                    <p>Git</p>
+                </div>
+                <div class="tools-item">
+                    <img src="#" alt="">
+                    <p>VS Code</p>
+                </div>
+            </div>
         </div>
 <!-- projects -->
         <!-- pending -->
         <div class="projects">
-            <div class="container"></div>
+            <div class="container">
+                <h2>Projects</h2>
+                <div class="projects-item">
+                    <a href="#"><img class="project-img" src="#" alt="#"></a>
+                </div>
+                <div class="projects-item">
+                    <a href="#"><img class="project-img" src="#" alt="#"></a>
+                </div>
+                <div class="projects-item">
+                    <a href="#"><img class="project-img" src="#" alt="#"></a>
+                </div>
+            </div>
         </div>
+<!-- contact -->
+        <div id="contact">
+            <div class="container">
+                <h2>Contact</h2>
+                <form>
+                    <div class="form-item">
+                        <label for="">Name</label>
+                        <input>
+                    </div>
+
+                    <div class="form-item">
+                        <label for="">Email</label>
+                        <input>
+                    </div>
+
+                    <div class="form-item">
+                        <label for=""></label>
+                        <textarea name="" id="" cols="30" rows="10"></textarea>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <footer>2023</footer>
     </body>
 </html>
