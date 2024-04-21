@@ -20,6 +20,11 @@ body {
     width: 24px;
 }
 
+#navbar {
+    position: sticky;
+    top: 0;
+}
+
 #navbar .container {
     display: none;
     flex-direction: column;
